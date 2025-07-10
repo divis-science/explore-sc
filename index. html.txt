@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resources - Explore Science</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-gray-800">
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">ExploreScience</h1>
+      <nav class="space-x-4 text-sm md:text-base">
+        <a href="index.html" class="hover:text-slate-600">Home</a>
+        <a href="biology.html" class="hover:text-slate-600">Biology</a>
+        <a href="chemistry.html" class="hover:text-slate-600">Chemistry</a>
+        <a href="physics.html" class="hover:text-slate-600">Physics</a>
+        <a href="computer-science.html" class="hover:text-slate-600">Computer Science</a>
+        <a href="ict.html" class="hover:text-slate-600">ICT</a>
+        <a href="geology.html" class="hover:text-slate-600">Geology</a>
+        <a href="resources.html" class="text-slate-700 font-semibold">Resources</a>
+        <a href="contact.html" class="hover:text-slate-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6 py-16">
+    <h2 class="text-4xl font-bold text-slate-700 mb-6">📦 Resources</h2>
+    <p class="mb-4">Find downloadable materials, simulations, videos, and external links to help you study every major science subject. Everything here is organized by subject.</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+      <div>
+        <h3 class="text-2xl font-semibold text-green-700 mb-2">Biology</h3>
+        <ul class="list-disc pl-6">
+          <li><a href="#" class="text-green-700 underline">Cell Biology PDF</a></li>
+          <li><a href="#" class="text-green-700 underline">Biology Quizlet Flashcards</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-2xl font-semibold text-pink-700 mb-2">Chemistry</h3>
+        <ul class="list-disc pl-6">
+          <li><a href="#" class="text-pink-700 underline">Periodic Table (Interactive)</a></li>
+          <li><a href="#" class="text-pink-700 underline">Chemistry Notes PDF</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-2xl font-semibold text-blue-700 mb-2">Physics</h3>
+        <ul class="list-disc pl-6">
+          <li><a href="#" class="text-blue-700 underline">Physics Equations Sheet</a></li>
+          <li><a href="#" class="text-blue-700 underline">PhET Simulations</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-2xl font-semibold text-gray-900 mb-2">Computer Science</h3>
+        <ul class="list-disc pl-6">
+          <li><a href="#" class="text-gray-900 underline">Python Basics PDF</a></li>
+          <li><a href="#" class="text-gray-900 underline">Code.org Lessons</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-2xl font-semibold text-purple-700 mb-2">ICT</h3>
+        <ul class="list-disc pl-6">
+          <li><a href="#" class="text-purple-700 underline">Digital Safety Poster</a></li>
+          <li><a href="#" class="text-purple-700 underline">ICT Glossary PDF</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-2xl font-semibold text-orange-700 mb-2">Geology</h3>
+        <ul class="list-disc pl-6">
+          <li><a href="#" class="text-orange-700 underline">Rock Cycle Worksheet</a></li>
+          <li><a href="#" class="text-orange-700 underline">Earthquake Animation</a></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-white border-t mt-10 py-6 text-center text-sm">
+    <p class="text-gray-600">&copy; 2025 ExploreScience. All rights reserved.</p>
+  </footer>
+</body>
+</html>
